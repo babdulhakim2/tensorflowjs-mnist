@@ -1,0 +1,18 @@
+.wrapper {
+    display: inline-flex;
+    justify-content: flex-end;
+    border: 10px solid lighten(#67b91a, 15%);
+    transition: border-color .2s ease-in;
+    &:hover {
+        border: 10px solid #67b91a;
+        transition: border-color .2s ease-in;
+    }
+}
+
+canvas {
+    cursor: crosshair;
+}
+
+.row {
+    margin: 10vh 5vw;
+}
